@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+            <div class="score">
+                <h3>HOME</h3>
+                <h2 id="score-home">0</h2>
+                <div class="btn">
+                    <button onclick="increasehome1()">+1</button>
+                    <button onclick="increasehome2()">+2</button>  
+                    <button onclick="increasehome3()">+3</button>
+                </div>
+
+            </div>
+            <div class="reset">
+                <button onclick="reset()">reset</button>
+            </div>
+            <div class="score">
+                <h3>Guest</h3>
+                <h2 id="score-guest">0</h2>
+                <div class="btn">
+                    <button onclick="increaseguest1()">+1</button>
+                    <button onclick="increaseguest2()">+2</button>  
+                    <button onclick="increaseguest3()">+3</button>
+                </div>
+                    
+            </div>
+    </div>
+</body>
+</html>
